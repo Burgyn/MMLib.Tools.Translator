@@ -5,7 +5,7 @@
 		<TargetFramework>net5.0</TargetFramework>
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>tr</ToolCommandName>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<Authors>Milan Martiniak</Authors>
 		<Company>MMLib</Company>
 		<Description>.NET Global text translation tool.</Description>
@@ -28,6 +28,7 @@
 		<PackageReference Include="GoogleTranslateFreeApi" Version="1.1.1" />
 		<PackageReference Include="GTranslate" Version="1.0.3" />
 		<PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.21216.1" />
+		<PackageReference Include="TextCopy" Version="4.3.1" />
 	</ItemGroup>
 
 </Project>
