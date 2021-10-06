@@ -39,7 +39,7 @@ Mostly a person needs to translate between two languages. If you have the defaul
 tr "Ahoj svet" -re
 ```
 
-> @satano thanks for the idea.
+> 🙏 @satano thanks for the idea.
 
 ## Copy to clipboard
 
