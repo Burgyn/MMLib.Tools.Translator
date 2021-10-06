@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>tr</ToolCommandName>
+		<Version>1.0.0</Version>
+		<Authors>Milan Martiniak</Authors>
+		<Company>MMLib</Company>
+		<Description>.NET Global text translation tool.</Description>
+		<PackageProjectUrl>https://github.com/Burgyn/MMLib.Tools.Translator</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/Burgyn/MMLib.Tools.Translator</RepositoryUrl>
+		<PackageTags>tool;translator</PackageTags>
+		<PackageReleaseNotes />
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>@MMLib</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Colorful.Console" Version="1.2.15" />
+		<PackageReference Include="GoogleTranslateFreeApi" Version="1.1.1" />
+		<PackageReference Include="GTranslate" Version="1.0.3" />
+		<PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.21216.1" />
+	</ItemGroup>
+
+</Project>

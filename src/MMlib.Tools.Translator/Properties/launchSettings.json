@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MMlib.Tools.Translator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Hello. How are you\""
+    }
+  }
+}
