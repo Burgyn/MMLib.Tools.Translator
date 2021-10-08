@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net5.0</TargetFramework>
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>tr</ToolCommandName>
-		<Version>1.2.0</Version>
+		<Version>1.3.0</Version>
 		<Authors>Milan Martiniak</Authors>
 		<Company>MMLib</Company>
 		<Description>.NET Global text translation tool.</Description>
@@ -17,10 +17,12 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Copyright>@MMLib</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<None Include="icon.png" Pack="true" PackagePath="" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
 	<ItemGroup>
