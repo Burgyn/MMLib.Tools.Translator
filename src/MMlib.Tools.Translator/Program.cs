@@ -68,7 +68,7 @@ namespace MMlib.Tools.Translator
                 targetLanguage = tmp;
             }
 
-            var translator = new GTranslate.Translators.GoogleTranslator();
+            var translator = new GTranslate.Translators.Translator();
             var result = await translator.TranslateAsync(text, targetLanguage, sourceLanguage);
             ClearLine();
             Console.WriteLine(
